@@ -7,8 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className={styles.background}>
-        
-        <div className={styles.blackbackground}></div>
+        <div className={styles.blackbackground}>
+          <div className={styles.screen}>
+          </div>
+        </div>
       </div>
     );
   }
