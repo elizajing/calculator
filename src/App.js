@@ -12,52 +12,52 @@ class App extends Component {
           </div>
           <div className={styles.buttonboard}>
             <div className={styles.buttonzero}>
-              <p>0</p>
+              <h4>0</h4>
             </div>
             <div className={styles.symbolbutton}>
-              <p>.</p>
+              <h4>.</h4>
             </div>
             <div className={styles.symbolbutton}>
-              <p>+</p>
+              <h4>+</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>1</p>
+              <h4>1</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>2</p>
+              <h4>2</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>3</p>
+              <h4>3</h4>
             </div>
             <div className={styles.symbolbutton}>
-              <p>-</p>
+              <h4>-</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>4</p>
+              <h4>4</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>5</p>
+              <h4>5</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>6</p>
+              <h4>6</h4>
             </div>
             <div className={styles.symbolbutton}>
-              <p>x</p>
+              <h4>x</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>7</p>
+              <h4>7</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>8</p>
+              <h4>8</h4>
             </div>
             <div className={styles.regularbutton}>
-              <p>9</p>
+              <h4>9</h4>
             </div>
             <div className={styles.symbolbutton}>
-              <p>/</p>
+              <h4>/</h4>
             </div>
             <div className={styles.acbutton}>
-              <p>AC</p>
+              <h4>AC</h4>
             </div>
           </div>
         </div>

@@ -60,3 +60,7 @@
   font-size: 20px;
   margin: 0.5px;
 }
+h4 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font: bold;
+}
