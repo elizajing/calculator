@@ -1,9 +1,9 @@
 .background{
   background-color: #D3D3D3;
-  height: 500px;
+  height: 600px;
   width: 400px;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 0.5%;
 }
 .blackbackground{
@@ -15,5 +15,40 @@
 .screen{
   background-color: #A9A9A9;
   height: 30%;
+  width: 99%;
+  margin: 1px;
+}
+.buttonboard{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70%;
   width: 100%;
+
+  /* background-color: #A9A9A9; */
+}
+.buttonzero{
+  width: 49%;
+  height: 19%;
+  background-color: #DCDCDC;
+  text-align: center;
+  font-size: 20px;
+  margin: 0.5px;
+}
+.regularbutton{
+  width: 24.5%;
+  height: 19%;
+  background-color: #DCDCDC;
+  text-align: center;
+  font-size: 20px;
+  margin: 0.5px;
+}
+.acbutton{
+  width: 99%;
+  height: 22%;
+  background-color: #FFD700;
+  text-align: center;
+  font-size: 20px;
+  margin: 0.5px;
 }
