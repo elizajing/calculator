@@ -1,10 +1,26 @@
+/*
+  xs: 768 px;
+  sm: 992px;
+  md: 1200px;
+  lg: >1200px;
+*/
 .background{
   background-color: #D3D3D3;
   height: 600px;
-  width: 400px;
+  width: 25%;
   margin: auto;
   margin-top: 2%;
   padding: 0.5%;
+}
+@media screen and (max-width: 768px) {
+  .background{
+    /* background-color: #D3D3D3; */
+    height: 600px;
+    width: 90%;
+    /* margin: auto; */
+    /* margin-top: 5%; */
+    /* padding: 0.5%; */
+  }
 }
 .blackBackground{
   background-color: #696969;
@@ -26,7 +42,6 @@
   height: 70%;
   width: 100%;
   margin: auto;
-  /* background-color: #A9A9A9; */
 }
 .regularButton{
   width: 24%;
