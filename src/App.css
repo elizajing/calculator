@@ -6,7 +6,7 @@
   margin-top: 2%;
   padding: 0.5%;
 }
-.blackbackground{
+.blackBackground{
   background-color: #696969;
   height: 98%;
   width: 98%;
@@ -18,7 +18,7 @@
   width: 99%;
   margin: auto;
 }
-.buttonboard{
+.buttonBoard{
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -28,37 +28,26 @@
   margin: auto;
   /* background-color: #A9A9A9; */
 }
-.buttonzero{
+.regularButton{
+  width: 24%;
+  height: 19%;
+  background-color: #DCDCDC;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+}
+.buttonZero{
+  composes: regularButton;
   width: 49%;
   height: 19%;
-  background-color: #DCDCDC;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
 }
-.regularbutton{
-  width: 24%;
-  height: 19%;
-  background-color: #DCDCDC;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
-}
-.symbolbutton{
-  width: 24%;
-  height: 19%;
+.symbolButton{
+  composes: regularButton;
   background-color: #DAA520;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
 }
-.acbutton{
-  width: 99%;
-  height: 20%;
-  background-color: #DAA520;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
+.acButton{
+  composes: symbolButton;
+  width: 74%;
 }
 h4 {
   font-family: "Lucida Console", Monaco, monospace;
