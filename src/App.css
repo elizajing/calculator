@@ -14,12 +14,8 @@
 }
 @media screen and (max-width: 768px) {
   .background{
-    /* background-color: #D3D3D3; */
     height: 600px;
     width: 90%;
-    /* margin: auto; */
-    /* margin-top: 5%; */
-    /* padding: 0.5%; */
   }
 }
 .blackBackground{
