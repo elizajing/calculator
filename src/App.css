@@ -14,8 +14,9 @@
 }
 @media screen and (max-width: 768px) {
   .background{
-    height: 600px;
-    width: 90%;
+    height: 700px;
+    width: 99%;
+    padding: 1%;
   }
 }
 .blackBackground{
