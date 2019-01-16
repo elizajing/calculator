@@ -1,25 +1,68 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import './AppTest.less';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="background">
+        <div className="blackBackground">
+          <div className="screen">
+          </div>
+          <div className="buttonBoard">
+            <div className="buttonZero">
+              <h4>0</h4>
+            </div>
+            <div className="symbolButton">
+              <h4>.</h4>
+            </div>
+            <div className="symbolButton">
+              <h4>+</h4>
+            </div>
+            <div className="regularButton">
+              <h4>1</h4>
+            </div>
+            <div className="regularButton">
+              <h4>2</h4>
+            </div>
+            <div className="regularButton">
+              <h4>3</h4>
+            </div>
+            <div className="symbolButton">
+              <h4>-</h4>
+            </div>
+            <div className="regularButton">
+              <h4>4</h4>
+            </div>
+            <div className="regularButton">
+              <h4>5</h4>
+            </div>
+            <div className="regularButton">
+              <h4>6</h4>
+            </div>
+            <div className="symbolButton">
+              <h4>x</h4>
+            </div>
+            <div className="regularButton">
+              <h4>7</h4>
+            </div>
+            <div className="regularButton">
+              <h4>8</h4>
+            </div>
+            <div className="regularButton">
+              <h4>9</h4>
+            </div>
+            <div className="symbolButton">
+              <h4>/</h4>
+            </div>
+            <div className="acButton">
+              <h4>AC</h4>
+            </div>
+            <div className="symbolButton">
+              <h4>=</h4>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
