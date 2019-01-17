@@ -30,6 +30,15 @@
   height: 30%;
   width: 99%;
   margin: auto;
+  margin-bottom: 2px;
+}
+input[type=text]{
+  background-color: #A9A9A9;
+  
+  width: 97%;
+  height: 93%;
+  margin: 5px;
+  border: none;
 }
 .buttonBoard{
   display: flex;

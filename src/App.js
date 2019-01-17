@@ -8,6 +8,7 @@ class App extends Component {
       <div className="background">
         <div className="blackBackground">
           <div className="screen">
+            <input type="text" />
           </div>
           <div className="buttonBoard">
             <div className="buttonZero">
