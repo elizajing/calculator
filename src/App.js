@@ -3,12 +3,16 @@ import React, { Component } from 'react';
 import './App.scss';
 
 class App extends Component {
+  
+  componentDidMount(){
+    this.input.focus();
+  }
   render() {
     return (
       <div className="background">
         <div className="blackBackground">
           <div className="screen">
-            <input type="text" />
+            <input type="text" ref={(input) => { this.input = input; }} />
           </div>
           <div className="buttonBoard">
             <div className="buttonZero">

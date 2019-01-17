@@ -39,6 +39,9 @@ input[type=text]{
   height: 93%;
   margin: 5px;
   border: none;
+  outline: none; //remove focus glow
+  text-align: right;
+  font-size: 60px;
 }
 
 .buttonBoard{
