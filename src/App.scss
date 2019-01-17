@@ -32,14 +32,15 @@
   margin: auto;
   margin-bottom: 2px;
 }
+
 input[type=text]{
   background-color: #A9A9A9;
-  
   width: 97%;
   height: 93%;
   margin: 5px;
   border: none;
 }
+
 .buttonBoard{
   display: flex;
   align-items: center;
@@ -49,7 +50,7 @@ input[type=text]{
   width: 100%;
   margin: auto;
 }
-.regularButton{
+%button{
   width: 24%;
   height: 19%;
   background-color: #DCDCDC;
@@ -57,38 +58,20 @@ input[type=text]{
   font-size: 20px;
   margin: auto;
 }
+.regularButton{
+  @extend %button;
+}
 .buttonZero{
-  /* composes: regularButton; */
-  width: 24%;
-  height: 19%;
-  background-color: #DCDCDC;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
-
+  @extend %button;
   width: 49%;
   height: 19%;
 }
 .symbolButton{
-  /* composes: regularButton; */
-  width: 24%;
-  height: 19%;
-  background-color: #DCDCDC;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
-
+  @extend %button;
   background-color: #DAA520;
 }
 .acButton{
-  /* composes: symbolButton; */
-  width: 24%;
-  height: 19%;
-  background-color: #DCDCDC;
-  text-align: center;
-  font-size: 20px;
-  margin: auto;
-
+  @extend %button;
   background-color: #DAA520;
 
   width: 74%;
